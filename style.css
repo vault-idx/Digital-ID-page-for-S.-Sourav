@@ -34,3 +34,34 @@ h1 {
   width: 140px;
   color: #2d3436;
 }
+/* Dark Mode Styling */
+body.dark-mode {
+  background-color: #111;
+  color: #f4f4f4;
+}
+
+.dark-mode .info p {
+  color: #ddd;
+}
+
+/* Button Style */
+.toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(45deg, #0077ff, #00c6ff);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+  z-index: 999;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
