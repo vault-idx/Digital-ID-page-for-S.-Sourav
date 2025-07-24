@@ -13,3 +13,6 @@ function type() {
 
 title.innerHTML = ""; // Clear original text
 type();
+function toggleMode() {
+  document.body.classList.toggle('dark-mode');
+}
